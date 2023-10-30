@@ -14,8 +14,10 @@ int removeDuplicates(List<int> nums) {
                     nums[tempIndex] = nums[i];
                     tempIndex++;
                 }
+                
             }     
             nums[tempIndex] = nums[nums.length-1];        
             return tempIndex+1;
+
         }
     }
