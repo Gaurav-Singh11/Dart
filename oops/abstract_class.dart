@@ -1,3 +1,9 @@
+main() {
+  B obj = B();
+  obj.say();
+  obj.write();
+}
+
 abstract class A {
   void say();
   void write();
@@ -13,10 +19,4 @@ class B extends A {
   void write() {
     print("Gaurav");
   }
-}
-
-main() {
-  B obj = B();
-  obj.say();
-  obj.write();
 }
