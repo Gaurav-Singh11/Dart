@@ -18,5 +18,6 @@ List<int> selectionSort(List<int> arr){
       arr[i] = min;
     }
   }
+  
   return arr;
 }

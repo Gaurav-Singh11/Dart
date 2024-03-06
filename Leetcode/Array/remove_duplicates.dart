@@ -6,6 +6,7 @@ void main(List<String> args) {
 
 int removeDuplicates(List<int> nums) {
   int tempIndex = 0;
+  
   if(nums.length == 1){
     return 1; 
   } else {
