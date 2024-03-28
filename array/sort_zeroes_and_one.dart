@@ -14,6 +14,5 @@ List<int> sortZeroesAndOne(List<int> arr){
       nextZero += 1;
     }
   }
-
   return arr;
 } 
